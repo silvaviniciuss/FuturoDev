@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.input {
+    width: 40px;
+}
+
+.btn {
+    width: 100px;
+}
+
+#resultado {
+    font-size: 20px;
+}
