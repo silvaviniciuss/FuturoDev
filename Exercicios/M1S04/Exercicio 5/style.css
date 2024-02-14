@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#numero {
+    width: 50px;
+}
+
+.btn {
+    width: 150px;
+}
+
+#resultado {
+    font-size: 15px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.zero {
+    color:chocolate;
+}
