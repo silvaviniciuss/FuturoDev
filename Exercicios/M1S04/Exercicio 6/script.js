@@ -29,6 +29,28 @@ const informações = (objeto) => {
     `)
 }
 
+const dados = (objeto) => {
+    let lista = document.querySelector("#lista")
+    const nome = document.createElement('li')
+    const idade = document.createElement('li')
+    const nacionalidade = document.createElement('li')
+    const profissao = document.createElement('li')
+    
+    nome.innerText = `Nome: ${objeto.nome}`
+    idade.innerHTML = `Idade: ${objeto.idade}`
+    nacionalidade.innerHTML = `Nacionalidade: ${objeto.nacionalidade}`
+    profissao.innerHTML = `Profissão: ${objeto.profissao}`
+
+    lista.appendChild(nome)
+    lista.appendChild(idade)
+    lista.appendChild(nacionalidade)
+    lista.appendChild(profissao)
+
+}
+
+
 informações(joao)
 informações(maria)
 informações(jose)
+
+dados(joao)
